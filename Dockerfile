@@ -23,6 +23,7 @@ RUN set -x \
 		wget=1.20.1-1.1 \
 		ca-certificates=20190110 \
 	&& apt-get install -y wget \
+	&& apt-get install -y curl \
 	&& useradd -u $PUID -m steam \
 	&& su steam -c \
 		"mkdir -p ${STEAMCMDDIR} \
