@@ -8,4 +8,4 @@ curl -o ~/run_dedicated_server.sh https://github.com/yzere/steamcmd/blob/master/
 chmod u+x ~/run_dedicated_server.sh
 mkdir ~/.klei/
 mkdir ~/.klei/DoNotStarveTogether/
-echo "Now upload MyDediServer.zip and unpack in .klei/DoNotStarveTogether/, after this run ~/run_dedicated_server.sh"
+echo "Now upload MyDediServer.zip and unpack in .klei/DoNotStarveTogether/, after this again run ~/run_dedicated_server.sh"
