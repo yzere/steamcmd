@@ -1,5 +1,5 @@
-apt-get update
-apt-get install docker-ce docker-ce-cli containerd.io
+sudo apt-get update
+sudo apt-get install docker-ce docker-ce-cli containerd.io
 docker pull yzere/steamcmd:latest
 docker run -it -d --name=steamcmd yzere/steamcmd bash
 docker exec -it steamcmd bash
